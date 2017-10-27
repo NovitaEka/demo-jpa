@@ -65,12 +65,12 @@ public class DemoJpaApplicationTests {
 		Assert.assertEquals(20, mtk.add(10, 10));
 	}
 	
-	@Test
-	public void loginTest() throws Exception {
-		String email = "eka@ut.com";
-		String password = "827ccb0eea8a706c4c34a16891f84e7bs";
-		
-		Assert.assertNotNull(uService.login(email, password));
-	}
+//	@Test
+//	public void loginTest() throws Exception {
+//		String email = "eka@ut.com";
+//		String password = "827ccb0eea8a706c4c34a16891f84e7bs";
+//		
+//		Assert.assertNotNull(uService.login(email, password));
+//	}
 
 }
